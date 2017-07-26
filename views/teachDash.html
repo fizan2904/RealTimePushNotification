@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+</head>
+<body>
+	<div id="newdef">
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript">
+window.setInterval(function(){
+  $.get('/dashboard/s', function(data){
+		$("#def").remove();
+		$('#newdef').hide();
+		$('body').html('<div>'+JSON.stringify(data)+'</div>');
+		console.log(data);
+	});
+}, 1000);
+</script>

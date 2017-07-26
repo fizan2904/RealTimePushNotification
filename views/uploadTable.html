@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Table</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div>
+		<h1>Time Table</h1>
+		<form method="post" action="/timetable/insert">
+			<div>
+				<h2>Monday:</h2>
+				<input type="text" name="monsub0" placeholder="8:00-8:50 AM Subject">
+				<input type="text" name="monsub1" placeholder="8:50-9:40 AM Subject">
+				<input type="text" name="monsub2" placeholder="10:00-10:50 AM Subject">
+				<input type="text" name="monsub3" placeholder="10:50-11:40 AM Subject">
+				<input type="text" name="monsub4" placeholder="12:30-1:20 PM Subject">
+				<input type="text" name="monsub5" placeholder="1:20-2:10 PM Subject">
+				<input type="text" name="monsub6" placeholder="2:10-3:00 PM Subject"><br><br>
+				<input type="text" name="monclassH0" placeholder="8:00-8:50 AM classH">
+				<input type="text" name="monclassH1" placeholder="8:50-9:40 AM classH">
+				<input type="text" name="monclassH2" placeholder="10:00-10:50 AM classH">
+				<input type="text" name="monclassH3" placeholder="10:50-11:40 AM classH">
+				<input type="text" name="monclassH4" placeholder="12:30-1:20 PM classH">
+				<input type="text" name="monclassH5" placeholder="1:20-2:10 PM classH">
+				<input type="text" name="monclassH6" placeholder="2:10-3:00 PM classH">
+			</div>
+			<div>
+				<h2>Tuesday:</h2>
+				<input type="text" name="tuesub0" placeholder="8:00-8:50 AM Subject">
+				<input type="text" name="tuesub1" placeholder="8:50-9:40 AM Subject">
+				<input type="text" name="tuesub2" placeholder="10:00-10:50 AM Subject">
+				<input type="text" name="tuesub3" placeholder="10:50-11:40 AM Subject">
+				<input type="text" name="tuesub4" placeholder="12:30-1:20 PM Subject">
+				<input type="text" name="tuesub5" placeholder="1:20-2:10 PM Subject">
+				<input type="text" name="tuesub6" placeholder="2:10-3:00 PM Subject"><br><br>
+				<input type="text" name="tueclassH0" placeholder="8:00-8:50 AM classH">
+				<input type="text" name="tueclassH1" placeholder="8:50-9:40 AM classH">
+				<input type="text" name="tueclassH2" placeholder="10:00-10:50 AM classH">
+				<input type="text" name="tueclassH3" placeholder="10:50-11:40 AM classH">
+				<input type="text" name="tueclassH4" placeholder="12:30-1:20 PM classH">
+				<input type="text" name="tueclassH5" placeholder="1:20-2:10 PM classH">
+				<input type="text" name="tueclassH6" placeholder="2:10-3:00 PM classH">
+			</div>
+			<div>
+				<h2>Wednesday:</h2>
+				<input type="text" name="wedsub0" placeholder="8:00-8:50 AM Subject">
+				<input type="text" name="wedsub1" placeholder="8:50-9:40 AM Subject">
+				<input type="text" name="wedsub2" placeholder="10:00-10:50 AM Subject">
+				<input type="text" name="wedsub3" placeholder="10:50-11:40 AM Subject">
+				<input type="text" name="wedsub4" placeholder="12:30-1:20 PM Subject">
+				<input type="text" name="wedsub5" placeholder="1:20-2:10 PM Subject">
+				<input type="text" name="wedsub6" placeholder="2:10-3:00 PM Subject"><br><br>
+				<input type="text" name="wedclassH0" placeholder="8:00-8:50 AM classH">
+				<input type="text" name="wedclassH1" placeholder="8:50-9:40 AM classH">
+				<input type="text" name="wedclassH2" placeholder="10:00-10:50 AM classH">
+				<input type="text" name="wedclassH3" placeholder="10:50-11:40 AM classH">
+				<input type="text" name="wedclassH4" placeholder="12:30-1:20 PM classH">
+				<input type="text" name="wedclassH5" placeholder="1:20-2:10 PM classH">
+				<input type="text" name="wedclassH6" placeholder="2:10-3:00 PM classH">
+			</div>
+			<div>
+				<h2>Thursday:</h2>
+				<input type="text" name="thusub0" placeholder="8:00-8:50 AM Subject">
+				<input type="text" name="thusub1" placeholder="8:50-9:40 AM Subject">
+				<input type="text" name="thusub2" placeholder="10:00-10:50 AM Subject">
+				<input type="text" name="thusub3" placeholder="10:50-11:40 AM Subject">
+				<input type="text" name="thusub4" placeholder="12:30-1:20 PM Subject">
+				<input type="text" name="thusub5" placeholder="1:20-2:10 PM Subject">
+				<input type="text" name="thusub6" placeholder="2:10-3:00 PM Subject"><br><br>
+				<input type="text" name="thuclassH0" placeholder="8:00-8:50 AM classH">
+				<input type="text" name="thuclassH1" placeholder="8:50-9:40 AM classH">
+				<input type="text" name="thuclassH2" placeholder="10:00-10:50 AM classH">
+				<input type="text" name="thuclassH3" placeholder="10:50-11:40 AM classH">
+				<input type="text" name="thuclassH4" placeholder="12:30-1:20 PM classH">
+				<input type="text" name="thuclassH5" placeholder="1:20-2:10 PM classH">
+				<input type="text" name="thuclassH6" placeholder="2:10-3:00 PM classH">
+			</div>
+			<div>
+				<h2>Friday:</h2>
+				<input type="text" name="frisub0" placeholder="8:00-8:50 AM Subject">
+				<input type="text" name="frisub1" placeholder="8:50-9:40 AM Subject">
+				<input type="text" name="frisub2" placeholder="10:00-10:50 AM Subject">
+				<input type="text" name="frisub3" placeholder="10:50-11:40 AM Subject">
+				<input type="text" name="frisub4" placeholder="12:30-1:20 PM Subject">
+				<input type="text" name="frisub5" placeholder="1:20-2:10 PM Subject">
+				<input type="text" name="frisub6" placeholder="2:10-3:00 PM Subject"><br><br>
+				<input type="text" name="friclassH0" placeholder="8:00-8:50 AM classH">
+				<input type="text" name="friclassH1" placeholder="8:50-9:40 AM classH">
+				<input type="text" name="friclassH2" placeholder="10:00-10:50 AM classH">
+				<input type="text" name="friclassH3" placeholder="10:50-11:40 AM classH">
+				<input type="text" name="friclassH4" placeholder="12:30-1:20 PM classH">
+				<input type="text" name="friclassH5" placeholder="1:20-2:10 PM classH">
+				<input type="text" name="friclassH6" placeholder="2:10-3:00 PM classH">
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="Submit" classH="btn btn-primary">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>			
